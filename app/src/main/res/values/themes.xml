@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Base.Theme.SimpleCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Material 3 Colors -->
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+
+        <!-- Status & Navigation bar -->
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/md_theme_light_background</item>
+    </style>
+
+    <style name="Theme.SimpleCalculator" parent="Base.Theme.SimpleCalculator" />
+</resources>
